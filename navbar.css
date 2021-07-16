@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar {
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+
+.lu-brand img {
+    width: 140px;
+}
+
+.lu-navbar {
+    height: 100%;
+}
+
+.lu-navbar ul {
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.lu-navbar ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.lu-navbar ul li a {
+    text-decoration: none;
+    color: red;
+    padding: 0px 15px;
+    /* line-height: 100%; */
+    font-size: 40px;
+}
+
+.btn-group button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid transparent;
+    background: none;
+}
+
+.btn-login {
+    background: white;
+    color: black;
+    border: 1px solid lightgray !important;
+}
+
+.btn-signup {
+    background: black !important;
+    color: white;
+    border: 1px solid black !important;
+}

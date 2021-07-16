@@ -1,0 +1,31 @@
+#Navbar {
+    height: 1000px;
+    padding: 20px;
+    background: rgb(121, 116, 116)
+}
+
+
+.Logo h1 {
+    padding: 20px;
+    color: rgb(211, 177, 177);
+}
+
+
+
+.navbar {
+    height: 100%;
+    color: white;
+}
+
+.navbar ul {
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}

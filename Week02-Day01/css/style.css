@@ -1,0 +1,31 @@
+.item {
+    margin: 10px;
+    min-height: 200px;
+}
+
+
+
+.bg-dark {
+    background: black;
+}
+
+.bg-yellow {
+    background: yellow;
+}
+
+
+.bg-blue {
+    background: blue;
+}
+
+.border-dark {
+    border: 1px solid black;
+}
+
+.border-yellow {
+    border: 1px solid yellow;
+}
+
+.border-red {
+    border: 1px solid red;
+}
