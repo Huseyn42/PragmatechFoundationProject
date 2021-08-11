@@ -1,0 +1,153 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+#navbar {
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+
+.lu-brand img {
+    width: 140px;
+}
+
+.lu-navbar {
+    height: 100%;
+}
+
+.lu-navbar ul {
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.lu-navbar ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.lu-navbar ul li a {
+    text-decoration: none;
+    color: red;
+    padding: 0px 15px;
+    /* line-height: 100%; */
+    font-size: 1.2em;
+}
+
+.btn-group button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid transparent;
+    background: none;
+    font-size: 1.2em;
+}
+
+.btn-login {
+    background: white;
+    color: black;
+    border: 1px solid lightgray !important;
+}
+
+.btn-signup {
+    background: black !important;
+    color: white;
+    border: 1px solid black !important;
+}
+
+
+/* Slider Styles */
+
+#slider {
+    height: 800px;
+    background-image: url(../images/e.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.lu-slider-content-container {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.lu-slider-content {
+    color: white;
+}
+
+.lu-slider-content h1 {
+    font-size: 5em;
+    line-height: 68px;
+    font-weight: normal;
+    padding-right: 40%;
+    margin: 10px 0px;
+}
+
+.lu-slider-content p {
+    font-size: 1.3em;
+    font-weight: normal;
+    padding-right: 40%;
+    margin: 10px 0px;
+}
+
+.lu-slider-content h1 span {
+    color: red;
+}
+
+.search-content {
+    position: relative;
+    margin: 10px 0px;
+}
+
+.search-content input {
+    padding: 20px 20px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-size: 1.2em;
+    border: none;
+    box-shadow: 0px 0px 3px lightgray;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    min-width: 400px;
+    margin: 10px 0px;
+    text-indent: 25px;
+}
+
+.search-content i {
+    position: absolute;
+    top: 40%;
+    left: 15px;
+    font-size: 1.2em;
+    color: black;
+}
+
+.search-content button {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-size: 1.2em;
+    color: white;
+    background: black;
+    padding: 20px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -3px;
+}
+
+.lu-slider-carousel {
+    width: 100%;
+    padding: 50px 10px;
+    box-shadow: 0px 0px 10px gray;
+    background: white;
+    position: absolute;
+    bottom: 0px;
+    transform: translate(0, 50%);
+    border-radius: 10px;
+}
