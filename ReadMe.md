@@ -3,7 +3,7 @@
 ### Haqqımda qısa məlumat
 - Tədrisə başladığım tarix :
 - Tədrisi başa vurduğum tarix : 
-- Tədris müddətində hədəflədiyim layihə şablon(ları) :[Sablon01](https://friend-v2.netlify.app/friend/)
+- Tədris müddətində hədəflədiyim layihə şablon(ları) :[Sablon01]()
 
 ###  Tədris müddətində gördüyüm işlər
 - İş adı 01
